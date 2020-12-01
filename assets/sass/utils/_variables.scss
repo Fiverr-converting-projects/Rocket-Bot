@@ -1,0 +1,46 @@
+// Primary Color
+$color-primary-1: #1b1b1b;
+$color-primary-2: #257dc1;
+
+// Secondary Color
+$color-secondary-1: rgba(255,255,255,0.65);
+$color-secondary-2: #fdfefe;
+$color-secondary-3: #252525;
+$color-secondary-4: #1f1f1f;
+$color-secondary-5: #181818;
+
+
+//Font sizes
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-re: 16px;
+$font-size-md: 18px;
+$font-size-lg: 32px;
+$font-size-xl: 40px;
+
+// Font Names
+$primary-font: "Biennale";
+
+// Breakpoint
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Black & White
+$black: #000000;
+$white: #ffffff;
+
+//Font Path
+$primary-light-path: "../fonts/" + $primary-font + "/" + $primary-font + " Light.otf";
+$primary-regular-path: "../fonts/" + $primary-font + "/" + $primary-font + " Regular.otf";
+$primary-medium-path: "../fonts/" + $primary-font + "/" + $primary-font + " Medium.otf";
+$primary-semibold-path: "../fonts/" + $primary-font + "/" + $primary-font + " Semibold.otf";
+$primary-bold-path: "../fonts/" + $primary-font + "/" + $primary-font + " Bold.otf";
+
+//Font Family
+$primary-light: $primary-font + " Light";
+$primary-regular: $primary-font + " Regular";
+$primary-medium: $primary-font + " Medium";
+$primary-semibold: $primary-font + " SemiBold";
+$primary-bold: $primary-font + " Bold";
